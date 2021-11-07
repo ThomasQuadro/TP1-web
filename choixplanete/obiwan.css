@@ -50,36 +50,35 @@ body{
     
 }
 
-#infoetoile{
-    width: auto;
-    height: auto;
-    opacity: 0;
-    margin-right: 40px;
-}
-
-
-.etoile img{
-    height: 80%;
-    padding-top: 40px;
-}
-
-#infotatooine{
+#infomustafar{
     width: auto;
     height: auto;
     opacity: 0;
 }
 
-.tatooine img{
+
+.mustafar img{
+    height: 90%;
+    padding-top: 10px;
+}
+
+#infoutapau{
+    width: auto;
+    height: auto;
+    opacity: 0;
+}
+
+.utapau img{
     height: 100%;
     
 }
 
-.planete1:hover #infoetoile:not(:hover) {
+.planete1:hover #infomustafar:not(:hover) {
     transition:all 1s;
     opacity:1;
 }
 
-.planete2:hover #infotatooine:not(:hover) {
+.planete2:hover #infoutapau:not(:hover) {
     transition:all 1s;
     opacity:1;
 }
