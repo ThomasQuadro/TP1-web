@@ -1,5 +1,5 @@
 body{
-    background: url("../img/star.jpg");
+    background: url("../../img/fondsith3.jpg");
     text-align: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -7,7 +7,7 @@ body{
     width: 100%;
     margin: 0;
     padding: 0;
-    color: #03799c;
+    color: #a80b20;
 }
 
 h1{
@@ -15,10 +15,9 @@ h1{
     text-decoration: underline;
 }
 
-
 .paragraphe p{
-    color: black;
-    background-color: /*#a80b20*/ #a80b20b0;
+    color: #a80b20;
+    background-color: /*#a80b20*/ #a80b2081;
     border: 4px solid rgba(0, 0, 0, 0.5);
     margin-left: 35%;
     margin-right: 35%;
@@ -33,7 +32,7 @@ h1{
     text-align: center;
 }
 
-.planete1{
+.perso1{
     display: flex;
     flex-direction: row;
     justify-content: right;
@@ -41,47 +40,44 @@ h1{
     width: 400px;
 }
 
-.planete2{
+.perso2{
     display: flex;
     flex-direction: row;
-    justify-content: left;
-    margin-left: 15rem;
+    justify-content:left;
+    margin-left: 25rem;
     height: 375px;
     width: 400px;
-    
 }
 
-#infonaboo{
-    width: auto;
-    height: auto;
-    opacity: 0;
-    margin-right: 40px;
-}
-
-
-.naboo img{
-    height: 80%;
-    padding-top: 40px;
-}
-
-#infotatooine{
+#infomaul{
     width: auto;
     height: auto;
     opacity: 0;
 }
 
-.tatooine img{
-    height: 90%;
-    padding-top: 20px;
+
+.maul img{
+    height: 100%;
+    width: 100%;
+}
+
+#infovador{
+    width: auto;
+    height: auto;
+    opacity: 0;
+}
+
+.vador img{
+    height: 100%;
     
 }
 
-.planete1:hover #infonaboo:not(:hover) {
+.perso1:hover #infomaul:not(:hover) {
     transition:all 1s;
     opacity:1;
 }
 
-.planete2:hover #infotatooine:not(:hover) {
+.perso2:hover #infovador:not(:hover) {
     transition:all 1s;
     opacity:1;
 }
@@ -99,4 +95,5 @@ footer{
     padding-top:50px;
     height:30px;
 }
+
 

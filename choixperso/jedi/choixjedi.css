@@ -1,5 +1,5 @@
 body{
-    background: url("../img/fondsith3.jpg");
+    background: url("../../img/fondjedi4.jpg");
     text-align: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -7,18 +7,18 @@ body{
     width: 100%;
     margin: 0;
     padding: 0;
-    color: #a80b20;
+    color: #03799c;
 }
 
-h1{
-    color: #a80b20;
+ h1{
+    color: #03799c;
     text-decoration: underline;
 }
 
 .paragraphe p{
-    color: #a80b20;
-    background-color: /*#a80b20*/ #a80b2081;
-    border: 4px solid rgba(0, 0, 0, 0.5);
+    color: #03799c;
+    background-color: #14476375;
+    border: 4px solid #03799c;
     margin-left: 35%;
     margin-right: 35%;
     padding-top: 10px;
@@ -43,52 +43,52 @@ h1{
 .perso2{
     display: flex;
     flex-direction: row;
-    justify-content:left;
+    justify-content: left;
     margin-left: 25rem;
     height: 375px;
     width: 400px;
 }
 
-#infomaul{
+#infoluke{
     width: auto;
     height: auto;
     opacity: 0;
 }
 
 
-.maul img{
+.luke img{
     height: 100%;
     width: 100%;
 }
 
-#infovador{
+#infoobiwan{
     width: auto;
     height: auto;
     opacity: 0;
 }
 
-.vador img{
+.obiwan img{
     height: 100%;
     
 }
 
-.perso1:hover #infomaul:not(:hover) {
+.perso1:hover #infoluke:not(:hover) {
     transition:all 1s;
     opacity:1;
 }
 
-.perso2:hover #infovador:not(:hover) {
+.perso2:hover #infoobiwan:not(:hover) {
     transition:all 1s;
     opacity:1;
 }
 
 footer{
     display: flex;
-    color: black;
+    color: #03799c;
     justify-content: center;
     align-items: flex-end;
     padding: 5px;
-    background-color: #a80b2081;
+    background-color: #14476375;
     position:absolute;
     bottom:0;
     width:99%;
