@@ -17,14 +17,14 @@ Luke :
 -----------------------------------------------------------------
 Obi-Wan:
 	1- Aller sur Mustafar
-		--> Raisoner anakin
+		1--> Raisoner anakin
 		|	-mort
-		--> Tuer anakin
+		1--> Tuer anakin
 			-vivant
 	1- utapau
-		--> affronter grevious
+		1--> affronter grevious
 		|	-vivant et il fuit
-		--> sauver les clones en difficulté
+		1--> sauver les clones en difficulté
 			-mort 
 ------------------------------------------------------------------
 Dark vador:
@@ -41,13 +41,13 @@ Dark vador:
 -------------------------------------------------------------------
 Dark Maul:
 	1- aller sur Naboo
-		--> Affronter Qui Gon Jinn
+		1--> Affronter Qui Gon Jinn
 		|	- Mort car obiwan le tuer
-		--> Affronter Obiwan
+		1--> Affronter Obiwan
 			- vivant Le tue et tue Qui Gon Jinn 
 	1- aller sur tatooine
-		--> Affronter obiwan
+		1--> Affronter obiwan
 		|	- Mort
-		--> Laisser partir Obiwan
+		1--> Laisser partir Obiwan
 			- Vivant
 	
