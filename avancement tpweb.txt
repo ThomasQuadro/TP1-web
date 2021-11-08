@@ -1,59 +1,51 @@
 Luke :
-	- Sauver Leila sur une planete
-		--> Entrer en se faisant passer pour un serviteur de Jaba
-		|	--> Affrontrer le rancor avec les moyens du bord
-		|	|	-mort
-		|	--> essayer de S'enfuir de la cage en appuyant sur un bouton
-		|		-vivant
-		--> Entrer en force chez Jaba
-			- Meurt
+	1- Sauver Leila sur une planete 
+		1--> Entrer en se faisant passer pour un serviteur de Jaba
+		|	1--> Affrontrer le rancor avec les moyens du bord
+		|	|	0-mort
+		|	1--> essayer de S'enfuir de la cage en appuyant sur un bouton
+		|		0-vivant
+		1--> Entrer en force chez Jaba
+			0- Meurt
 
-	- Detruire l'etoile noir 
-		--> Affronter vador
-		|	--> Tuer Vador et rejoindre les Sith
-		|	|	-Vous devenez un Sith
-		|	--> Essayer de raisonner Vador et tuer Empereur
-		|		-Vivant
-		--> Affronter L'empereur
-			--> Tu t'enfuis
-			|	-vivant mais espace dominé
-			--> Tu continu a te battre
-				-mort
+	1- Detruire l'etoile noir 
+		1--> Affronter vador
+		|		- Tuer Vador et rejoindre les Sith
+		|
+		1--> Ramener vador a lui
+				- vivant
 -----------------------------------------------------------------
 Obi-Wan:
-	- Aller sur Mustafar
+	1- Aller sur Mustafar
 		--> Raisoner anakin
 		|	-mort
 		--> Tuer anakin
 			-vivant
-	- utapau
+	1- utapau
 		--> affronter grevious
 		|	-vivant et il fuit
 		--> sauver les clones en difficulté
 			-mort 
 ------------------------------------------------------------------
 Dark vador:
-	- Aller sur Mustafar
+	1- Aller sur Mustafar
 		--> Raisoner obiwan
 		|	-mort
 		--> Tuer obiwan
 			-vivant
-	- Aller sur l'etoile noir 
+	1- Aller sur l'etoile noir 
 		--> Affronter luke
-		|	--> Tuer luke 
-		|	|	- Vous etes torturé par palpatine mais vivant
-		|	--> Essayer de raisonner luke pour rejoindre les sith
-		|		- mort car luke doit vous tuer pour l'epreuve
-		--> Affronter l'armée de la rébellion
+		|	- vivant mais mort 
+		--> Aider luke
 			- Vivant
 -------------------------------------------------------------------
 Dark Maul:
-	- aller sur Naboo
+	1- aller sur Naboo
 		--> Affronter Qui Gon Jinn
 		|	- Mort car obiwan le tuer
 		--> Affronter Obiwan
 			- vivant Le tue et tue Qui Gon Jinn 
-	- aller sur tatooine
+	1- aller sur tatooine
 		--> Affronter obiwan
 		|	- Mort
 		--> Laisser partir Obiwan
