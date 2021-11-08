@@ -29,14 +29,14 @@ Obi-Wan:
 ------------------------------------------------------------------
 Dark vador:
 	1- Aller sur Mustafar
-		--> Raisoner obiwan
+		1--> Raisoner obiwan
 		|	-mort
-		--> Tuer obiwan
+		1--> Tuer obiwan
 			-vivant
 	1- Aller sur l'etoile noir 
-		--> Affronter luke
+		1--> Affronter luke
 		|	- vivant mais mort 
-		--> Aider luke
+		1--> Aider luke
 			- Vivant
 -------------------------------------------------------------------
 Dark Maul:
