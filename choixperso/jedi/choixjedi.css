@@ -11,8 +11,7 @@ body{
 }
 
  h1{
-    color: white;
-    
+    color: white;   
 }
 
 .paragraphe p{
@@ -40,6 +39,22 @@ body{
     width: 400px;
 }
 
+#infoluke{
+    width: auto;
+    height: auto;
+    opacity: 0;
+}
+
+.luke img{
+    height: 100%;
+    width: 100%;
+}
+
+.perso1:hover #infoluke:not(:hover) {
+    transition:all 1s;
+    opacity:1;
+}
+
 .perso2{
     display: flex;
     flex-direction: row;
@@ -47,18 +62,6 @@ body{
     margin-left: 25rem;
     height: 375px;
     width: 400px;
-}
-
-#infoluke{
-    width: auto;
-    height: auto;
-    opacity: 0;
-}
-
-
-.luke img{
-    height: 100%;
-    width: 100%;
 }
 
 #infoobiwan{
@@ -70,11 +73,6 @@ body{
 .obiwan img{
     height: 100%;
     
-}
-
-.perso1:hover #infoluke:not(:hover) {
-    transition:all 1s;
-    opacity:1;
 }
 
 .perso2:hover #infoobiwan:not(:hover) {

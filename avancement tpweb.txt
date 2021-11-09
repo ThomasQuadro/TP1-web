@@ -2,11 +2,11 @@ Luke :
 	1- Sauver Leila sur une planete 
 		1--> Entrer en se faisant passer pour un serviteur de Jaba
 		|	1--> Affrontrer le rancor avec les moyens du bord
-		|	|	0-mort
+		|	|	-mort
 		|	1--> essayer de S'enfuir de la cage en appuyant sur un bouton
-		|		0-vivant
+		|		-vivant
 		1--> Entrer en force chez Jaba
-			0- Meurt
+			- Meurt
 
 	1- Detruire l'etoile noir 
 		1--> Affronter vador

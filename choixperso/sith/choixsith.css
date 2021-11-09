@@ -39,15 +39,6 @@ h1{
     width: 400px;
 }
 
-.perso2{
-    display: flex;
-    flex-direction: row;
-    justify-content:left;
-    margin-left: 25rem;
-    height: 375px;
-    width: 400px;
-}
-
 #infomaul{
     width: auto;
     height: auto;
@@ -60,6 +51,20 @@ h1{
     width: 100%;
 }
 
+.perso1:hover #infomaul:not(:hover) {
+    transition:all 1s;
+    opacity:1;
+}
+
+.perso2{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    margin-left: 25rem;
+    height: 375px;
+    width: 400px;
+}
+
 #infovador{
     width: auto;
     height: auto;
@@ -69,11 +74,6 @@ h1{
 .vador img{
     height: 100%;
     
-}
-
-.perso1:hover #infomaul:not(:hover) {
-    transition:all 1s;
-    opacity:1;
 }
 
 .perso2:hover #infovador:not(:hover) {

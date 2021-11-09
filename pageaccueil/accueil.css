@@ -1,0 +1,49 @@
+body{
+    background: black;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: #03799c;
+}
+
+ h1{
+    color: #ffe91f;   
+}
+
+
+.image{ 
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    text-align: center;
+}
+
+.bouton{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 100px;
+}
+
+.bout img{
+    height: 100%;
+    width: 100%;
+}
+
+footer{
+    display: flex;
+    color: black;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 5px;
+    background-color: #ffe91f7e;
+    position:absolute;
+    bottom:0;
+    width:99%;
+    padding-top:50px;
+    height:30px;
+}
